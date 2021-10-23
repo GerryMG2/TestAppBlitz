@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  form(method="POST" action="/")
+    | client ID : 
+    input(type='text' name='user_id')
+    |     Nuevo nombre comercial: 
+    input(type='text' name='name')
+    button(type="submit") Submit
